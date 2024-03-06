@@ -1,0 +1,487 @@
+{
+<<<<<<< HEAD
+  "_all-28a0b9b7.js": {
+    "file": "assets/all-28a0b9b7.js"
+=======
+  "_all-31b94207.js": {
+    "file": "assets/all-31b94207.js"
+>>>>>>> 724c5309b1c2b1d9e9c6ab622cf93decf2e66176
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff": {
+    "file": "assets/bootstrap-icons-4d4572ef.woff",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff"
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2": {
+    "file": "assets/bootstrap-icons-bacd70af.woff2",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
+  },
+  "resources/images/accountlogin-bg.svg": {
+    "file": "assets/accountlogin-bg-2f0010a2.svg",
+    "src": "resources/images/accountlogin-bg.svg"
+  },
+  "resources/images/add-on.svg": {
+    "file": "assets/add-on-799158dd.svg",
+    "src": "resources/images/add-on.svg"
+  },
+  "resources/images/agent.svg": {
+    "file": "assets/agent-32ffd4ce.svg",
+    "src": "resources/images/agent.svg"
+  },
+  "resources/images/airport-icon.svg": {
+    "file": "assets/airport-icon-d4467eab.svg",
+    "src": "resources/images/airport-icon.svg"
+  },
+  "resources/images/airport.svg": {
+    "file": "assets/airport-c840a4ba.svg",
+    "src": "resources/images/airport.svg"
+  },
+  "resources/images/auth-profile-image.png": {
+    "file": "assets/auth-profile-image-8cf2266d.png",
+    "src": "resources/images/auth-profile-image.png"
+  },
+  "resources/images/back-green-icon.svg": {
+    "file": "assets/back-green-icon-3767c6eb.svg",
+    "src": "resources/images/back-green-icon.svg"
+  },
+  "resources/images/big-right-arrow.svg": {
+    "file": "assets/big-right-arrow-0d65b8e8.svg",
+    "src": "resources/images/big-right-arrow.svg"
+  },
+  "resources/images/black-tick.svg": {
+    "file": "assets/black-tick-793f3e44.svg",
+    "src": "resources/images/black-tick.svg"
+  },
+  "resources/images/booking-form.svg": {
+    "file": "assets/booking-form-d3900163.svg",
+    "src": "resources/images/booking-form.svg"
+  },
+  "resources/images/booking.svg": {
+    "file": "assets/booking-d39173cb.svg",
+    "src": "resources/images/booking.svg"
+  },
+  "resources/images/calander.svg": {
+    "file": "assets/calander-5731e942.svg",
+    "src": "resources/images/calander.svg"
+  },
+  "resources/images/call-icon.svg": {
+    "file": "assets/call-icon-05a363d4.svg",
+    "src": "resources/images/call-icon.svg"
+  },
+  "resources/images/car-icon.svg": {
+    "file": "assets/car-icon-b8c02df2.svg",
+    "src": "resources/images/car-icon.svg"
+  },
+  "resources/images/car.svg": {
+    "file": "assets/car-16392455.svg",
+    "src": "resources/images/car.svg"
+  },
+  "resources/images/charging-car.svg": {
+    "file": "assets/charging-car-953261fc.svg",
+    "src": "resources/images/charging-car.svg"
+  },
+  "resources/images/clock.svg": {
+    "file": "assets/clock-f5b155c5.svg",
+    "src": "resources/images/clock.svg"
+  },
+  "resources/images/contact-us-hero-banner.svg": {
+    "file": "assets/contact-us-hero-banner-d739a4ba.svg",
+    "src": "resources/images/contact-us-hero-banner.svg"
+  },
+  "resources/images/convenience-icon.svg": {
+    "file": "assets/convenience-icon-003d6f41.svg",
+    "src": "resources/images/convenience-icon.svg"
+  },
+  "resources/images/copyright.svg": {
+    "file": "assets/copyright-d22bc14a.svg",
+    "src": "resources/images/copyright.svg"
+  },
+  "resources/images/customers.svg": {
+    "file": "assets/customers-7cfab1d6.svg",
+    "src": "resources/images/customers.svg"
+  },
+  "resources/images/dashboard.svg": {
+    "file": "assets/dashboard-a600bcbf.svg",
+    "src": "resources/images/dashboard.svg"
+  },
+  "resources/images/delete.svg": {
+    "file": "assets/delete-7757cc76.svg",
+    "src": "resources/images/delete.svg"
+  },
+  "resources/images/direction-hero-banner.svg": {
+    "file": "assets/direction-hero-banner-b09c0165.svg",
+    "src": "resources/images/direction-hero-banner.svg"
+  },
+  "resources/images/down-arrow.svg": {
+    "file": "assets/down-arrow-2e6cade6.svg",
+    "src": "resources/images/down-arrow.svg"
+  },
+  "resources/images/edit-circle-icon.svg": {
+    "file": "assets/edit-circle-icon-41d5dbca.svg",
+    "src": "resources/images/edit-circle-icon.svg"
+  },
+  "resources/images/edit.svg": {
+    "file": "assets/edit-06f3bfc9.svg",
+    "src": "resources/images/edit.svg"
+  },
+  "resources/images/efficiency-bg.svg": {
+    "file": "assets/efficiency-bg-a4078bec.svg",
+    "src": "resources/images/efficiency-bg.svg"
+  },
+  "resources/images/email-icon.svg": {
+    "file": "assets/email-icon-ecc1b61a.svg",
+    "src": "resources/images/email-icon.svg"
+  },
+  "resources/images/email-user.svg": {
+    "file": "assets/email-user-ae366626.svg",
+    "src": "resources/images/email-user.svg"
+  },
+  "resources/images/ev-charging-man.svg": {
+    "file": "assets/ev-charging-man-bcd52db0.svg",
+    "src": "resources/images/ev-charging-man.svg"
+  },
+  "resources/images/ev-parking-bg.svg": {
+    "file": "assets/ev-parking-bg-b500184f.svg",
+    "src": "resources/images/ev-parking-bg.svg"
+  },
+  "resources/images/evparkgiant-logo.svg": {
+    "file": "assets/evparkgiant-logo-5994afc6.svg",
+    "src": "resources/images/evparkgiant-logo.svg"
+  },
+  "resources/images/exclamation-circle.svg": {
+    "file": "assets/exclamation-circle-32051ca5.svg",
+    "src": "resources/images/exclamation-circle.svg"
+  },
+  "resources/images/get-in-touch-sec-bg.svg": {
+    "file": "assets/get-in-touch-sec-bg-3d150d90.svg",
+    "src": "resources/images/get-in-touch-sec-bg.svg"
+  },
+  "resources/images/google-map-img.svg": {
+    "file": "assets/google-map-img-9b697893.svg",
+    "src": "resources/images/google-map-img.svg"
+  },
+  "resources/images/green-clock.svg": {
+    "file": "assets/green-clock-e27eb166.svg",
+    "src": "resources/images/green-clock.svg"
+  },
+  "resources/images/grey-arrowbtn.svg": {
+    "file": "assets/grey-arrowbtn-36bf9203.svg",
+    "src": "resources/images/grey-arrowbtn.svg"
+  },
+  "resources/images/header-logo.svg": {
+    "file": "assets/header-logo-aa23e0d4.svg",
+    "src": "resources/images/header-logo.svg"
+  },
+  "resources/images/heathrow.svg": {
+    "file": "assets/heathrow-9143e026.svg",
+    "src": "resources/images/heathrow.svg"
+  },
+  "resources/images/hero-banner-business-parking.svg": {
+    "file": "assets/hero-banner-business-parking-7218c539.svg",
+    "src": "resources/images/hero-banner-business-parking.svg"
+  },
+  "resources/images/home.svg": {
+    "file": "assets/home-beca7144.svg",
+    "src": "resources/images/home.svg"
+  },
+  "resources/images/home_hero_banner.png": {
+    "file": "assets/home_hero_banner-5b7704c7.png",
+    "src": "resources/images/home_hero_banner.png"
+  },
+  "resources/images/journey-begin-banner.webp": {
+    "file": "assets/journey-begin-banner-c8e755c2.webp",
+    "src": "resources/images/journey-begin-banner.webp"
+  },
+  "resources/images/left-orange-arrow.svg": {
+    "file": "assets/left-orange-arrow-169fa1eb.svg",
+    "src": "resources/images/left-orange-arrow.svg"
+  },
+  "resources/images/lock.svg": {
+    "file": "assets/lock-0bd46209.svg",
+    "src": "resources/images/lock.svg"
+  },
+  "resources/images/login-banner.png": {
+    "file": "assets/login-banner-01348c22.png",
+    "src": "resources/images/login-banner.png"
+  },
+  "resources/images/login-card-left-bnr.png": {
+    "file": "assets/login-card-left-bnr-430c2c13.png",
+    "src": "resources/images/login-card-left-bnr.png"
+  },
+  "resources/images/logo.svg": {
+    "file": "assets/logo-05a838c6.svg",
+    "src": "resources/images/logo.svg"
+  },
+  "resources/images/logout.svg": {
+    "file": "assets/logout-ef3e60c5.svg",
+    "src": "resources/images/logout.svg"
+  },
+  "resources/images/meet-gree-hero-banner.svg": {
+    "file": "assets/meet-gree-hero-banner-895e88b8.svg",
+    "src": "resources/images/meet-gree-hero-banner.svg"
+  },
+  "resources/images/meet-hand.svg": {
+    "file": "assets/meet-hand-f496fb26.svg",
+    "src": "resources/images/meet-hand.svg"
+  },
+  "resources/images/meetgreet-inner-bg.svg": {
+    "file": "assets/meetgreet-inner-bg-8bc20349.svg",
+    "src": "resources/images/meetgreet-inner-bg.svg"
+  },
+  "resources/images/menu-toggle.png": {
+    "file": "assets/menu-toggle-74c1ed21.png",
+    "src": "resources/images/menu-toggle.png"
+  },
+  "resources/images/message-icon.svg": {
+    "file": "assets/message-icon-233e99c6.svg",
+    "src": "resources/images/message-icon.svg"
+  },
+  "resources/images/message.svg": {
+    "file": "assets/message-27d89529.svg",
+    "src": "resources/images/message.svg"
+  },
+  "resources/images/minus-btn.svg": {
+    "file": "assets/minus-btn-0755247b.svg",
+    "src": "resources/images/minus-btn.svg"
+  },
+  "resources/images/navigating-img.svg": {
+    "file": "assets/navigating-img-cd853bf0.svg",
+    "src": "resources/images/navigating-img.svg"
+  },
+  "resources/images/navlink-right-arrow-icon.svg": {
+    "file": "assets/navlink-right-arrow-icon-18203ba1.svg",
+    "src": "resources/images/navlink-right-arrow-icon.svg"
+  },
+  "resources/images/one.svg": {
+    "file": "assets/one-00b4956f.svg",
+    "src": "resources/images/one.svg"
+  },
+  "resources/images/park-giant-logo.svg": {
+    "file": "assets/park-giant-logo-96ad2ddb.svg",
+    "src": "resources/images/park-giant-logo.svg"
+  },
+  "resources/images/park.svg": {
+    "file": "assets/park-3a45fd75.svg",
+    "src": "resources/images/park.svg"
+  },
+  "resources/images/parking-car-icon.svg": {
+    "file": "assets/parking-car-icon-e75aa09d.svg",
+    "src": "resources/images/parking-car-icon.svg"
+  },
+  "resources/images/parkmark-logo.png": {
+    "file": "assets/parkmark-logo-81c71292.png",
+    "src": "resources/images/parkmark-logo.png"
+  },
+  "resources/images/plane.svg": {
+    "file": "assets/plane-b2aaf1d5.svg",
+    "src": "resources/images/plane.svg"
+  },
+  "resources/images/plus-btn.svg": {
+    "file": "assets/plus-btn-c19d743f.svg",
+    "src": "resources/images/plus-btn.svg"
+  },
+  "resources/images/pricing.svg": {
+    "file": "assets/pricing-4e2e9049.svg",
+    "src": "resources/images/pricing.svg"
+  },
+  "resources/images/product.svg": {
+    "file": "assets/product-a302204d.svg",
+    "src": "resources/images/product.svg"
+  },
+  "resources/images/promo-code.svg": {
+    "file": "assets/promo-code-da211af2.svg",
+    "src": "resources/images/promo-code.svg"
+  },
+  "resources/images/promotion.svg": {
+    "file": "assets/promotion-b01856dd.svg",
+    "src": "resources/images/promotion.svg"
+  },
+  "resources/images/reporting.svg": {
+    "file": "assets/reporting-7c813022.svg",
+    "src": "resources/images/reporting.svg"
+  },
+  "resources/images/right-arrow.svg": {
+    "file": "assets/right-arrow-f5931dbc.svg",
+    "src": "resources/images/right-arrow.svg"
+  },
+  "resources/images/right-green-tick.svg": {
+    "file": "assets/right-green-tick-f445b959.svg",
+    "src": "resources/images/right-green-tick.svg"
+  },
+  "resources/images/right-tick.svg": {
+    "file": "assets/right-tick-4606d2a9.svg",
+    "src": "resources/images/right-tick.svg"
+  },
+  "resources/images/rightgreen-arrow.svg": {
+    "file": "assets/rightgreen-arrow-de9cce45.svg",
+    "src": "resources/images/rightgreen-arrow.svg"
+  },
+  "resources/images/safe.svg": {
+    "file": "assets/safe-709f994b.svg",
+    "src": "resources/images/safe.svg"
+  },
+  "resources/images/search.svg": {
+    "file": "assets/search-efbba819.svg",
+    "src": "resources/images/search.svg"
+  },
+  "resources/images/side-logo.svg": {
+    "file": "assets/side-logo-c0b4cbb5.svg",
+    "src": "resources/images/side-logo.svg"
+  },
+  "resources/images/star-icon.svg": {
+    "file": "assets/star-icon-9b2c8f53.svg",
+    "src": "resources/images/star-icon.svg"
+  },
+  "resources/images/supplier.svg": {
+    "file": "assets/supplier-b1bc2e10.svg",
+    "src": "resources/images/supplier.svg"
+  },
+  "resources/images/three.svg": {
+    "file": "assets/three-af440f19.svg",
+    "src": "resources/images/three.svg"
+  },
+  "resources/images/ts-cs.svg": {
+    "file": "assets/ts-cs-63cd60e0.svg",
+    "src": "resources/images/ts-cs.svg"
+  },
+  "resources/images/two.svg": {
+    "file": "assets/two-46f2a995.svg",
+    "src": "resources/images/two.svg"
+  },
+  "resources/images/user.svg": {
+    "file": "assets/user-49210846.svg",
+    "src": "resources/images/user.svg"
+  },
+  "resources/images/valet-parking-man.svg": {
+    "file": "assets/valet-parking-man-0eab2341.svg",
+    "src": "resources/images/valet-parking-man.svg"
+  },
+  "resources/images/valet-parking.png": {
+    "file": "assets/valet-parking-16b99ebd.png",
+    "src": "resources/images/valet-parking.png"
+  },
+  "resources/images/view.svg": {
+    "file": "assets/view-abab89f5.svg",
+    "src": "resources/images/view.svg"
+  },
+  "resources/images/walk-icon.svg": {
+    "file": "assets/walk-icon-a1f97d04.svg",
+    "src": "resources/images/walk-icon.svg"
+  },
+  "resources/images/webology-logo.svg": {
+    "file": "assets/webology-logo-25cb9b84.svg",
+    "src": "resources/images/webology-logo.svg"
+  },
+  "resources/images/whatsapp-icon.svg": {
+    "file": "assets/whatsapp-icon-a68ecc96.svg",
+    "src": "resources/images/whatsapp-icon.svg"
+  },
+  "resources/images/white-arrow-btn.svg": {
+    "file": "assets/white-arrow-btn-231c815c.svg",
+    "src": "resources/images/white-arrow-btn.svg"
+  },
+  "resources/images/white-arrow-icon.svg": {
+    "file": "assets/white-arrow-icon-eefefbe9.svg",
+    "src": "resources/images/white-arrow-icon.svg"
+  },
+  "resources/images/why-parkgiant-bg.svg": {
+    "file": "assets/why-parkgiant-bg-82833939.svg",
+    "src": "resources/images/why-parkgiant-bg.svg"
+  },
+  "resources/images/work-sec-bg.png": {
+    "file": "assets/work-sec-bg-6f5fc493.png",
+    "src": "resources/images/work-sec-bg.png"
+  },
+  "resources/js/admin/admin.css": {
+    "file": "assets/admin-627c9488.css",
+    "src": "resources/js/admin/admin.css"
+  },
+  "resources/js/admin/admin.js": {
+<<<<<<< HEAD
+    "css": [
+      "assets/admin-627c9488.css"
+    ],
+    "file": "assets/admin-588c49f9.js",
+    "imports": [
+      "_all-28a0b9b7.js"
+=======
+    "file": "assets/admin-8eacb59f.js",
+    "imports": [
+      "_all-31b94207.js"
+>>>>>>> 724c5309b1c2b1d9e9c6ab622cf93decf2e66176
+    ],
+    "isEntry": true,
+    "src": "resources/js/admin/admin.js"
+  },
+  "resources/js/front/front.js": {
+<<<<<<< HEAD
+    "file": "assets/front-dbc24251.js",
+    "imports": [
+      "_all-28a0b9b7.js"
+=======
+    "file": "assets/front-c4f12df1.js",
+    "imports": [
+      "_all-31b94207.js"
+>>>>>>> 724c5309b1c2b1d9e9c6ab622cf93decf2e66176
+    ],
+    "isEntry": true,
+    "src": "resources/js/front/front.js"
+  },
+  "resources/scss/admin/admin.scss": {
+<<<<<<< HEAD
+    "file": "assets/admin-caedb889.css",
+=======
+    "file": "assets/admin-8fc43b7d.css",
+>>>>>>> 724c5309b1c2b1d9e9c6ab622cf93decf2e66176
+    "isEntry": true,
+    "src": "resources/scss/admin/admin.scss"
+  },
+  "resources/scss/admin/fonts/Montserrat-Bold.ttf": {
+    "file": "assets/Montserrat-Bold-98b14868.ttf",
+    "src": "resources/scss/admin/fonts/Montserrat-Bold.ttf"
+  },
+  "resources/scss/admin/fonts/Montserrat-Light.ttf": {
+    "file": "assets/Montserrat-Light-432fceb4.ttf",
+    "src": "resources/scss/admin/fonts/Montserrat-Light.ttf"
+  },
+  "resources/scss/admin/fonts/Montserrat-Medium.ttf": {
+    "file": "assets/Montserrat-Medium-264819b0.ttf",
+    "src": "resources/scss/admin/fonts/Montserrat-Medium.ttf"
+  },
+  "resources/scss/admin/fonts/Montserrat-Regular.ttf": {
+    "file": "assets/Montserrat-Regular-c3fb0280.ttf",
+    "src": "resources/scss/admin/fonts/Montserrat-Regular.ttf"
+  },
+  "resources/scss/admin/fonts/Montserrat-SemiBold.ttf": {
+    "file": "assets/Montserrat-SemiBold-e23dc6d2.ttf",
+    "src": "resources/scss/admin/fonts/Montserrat-SemiBold.ttf"
+  },
+  "resources/scss/front/fonts/Montserrat-Bold.ttf": {
+    "file": "assets/Montserrat-Bold-98b14868.ttf",
+    "src": "resources/scss/admin/fonts/Montserrat-Bold.ttf"
+  },
+  "resources/scss/front/fonts/Montserrat-Light.ttf": {
+    "file": "assets/Montserrat-Light-432fceb4.ttf",
+    "src": "resources/scss/admin/fonts/Montserrat-Light.ttf"
+  },
+  "resources/scss/front/fonts/Montserrat-Medium.ttf": {
+    "file": "assets/Montserrat-Medium-264819b0.ttf",
+    "src": "resources/scss/admin/fonts/Montserrat-Medium.ttf"
+  },
+  "resources/scss/front/fonts/Montserrat-Regular.ttf": {
+    "file": "assets/Montserrat-Regular-c3fb0280.ttf",
+    "src": "resources/scss/admin/fonts/Montserrat-Regular.ttf"
+  },
+  "resources/scss/front/fonts/Montserrat-SemiBold.ttf": {
+    "file": "assets/Montserrat-SemiBold-e23dc6d2.ttf",
+    "src": "resources/scss/admin/fonts/Montserrat-SemiBold.ttf"
+  },
+  "resources/scss/front/front.scss": {
+<<<<<<< HEAD
+    "file": "assets/front-ba486769.css",
+=======
+    "file": "assets/front-f79b5f1f.css",
+>>>>>>> 724c5309b1c2b1d9e9c6ab622cf93decf2e66176
+    "isEntry": true,
+    "src": "resources/scss/front/front.scss"
+  }
+}

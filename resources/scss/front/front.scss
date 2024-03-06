@@ -1,0 +1,818 @@
+// Fonts
+@import "fonts";
+// Variables
+@import "variables";
+// Footer
+@import "footer";
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// Common Css
+// Global Typography Start
+h1 {@include font-h1} //80px
+h2 {@include font-h2} //24px
+h3 {@include font-h3} //36px
+h4 {@include font-h4} //24px
+h5 {@include font-h5} //20px
+h6 {@include font-h6} //18px
+blockquote{@include blockquote-font} 
+li {@include font-lg} //20px Used
+p {@include font-lg} //20px Used
+.font-md{font-size: $font-size-md;} //14px Used
+.font-mob-md{font-size: min($font-size-md,$font-mob-md-vw); line-height: $font-vw-line-height;} //14px Used
+.font-sm {font-size: $font-size-sm;} //12px Used
+.font-mob-sm{font-size: min($font-size-sm,$font-mob-sm-vw); line-height: $font-vw-line-height;} // Used
+.email{@include email-font;} //used
+// Global Typography End
+.divide-border-1 {
+  > * {
+    padding: $divider-1-pad;
+    @media (min-width:768px) {
+      border-right: $divider-1-border;
+      &:first-child,&:last-child {
+        border-color: transparent;
+      }
+    }
+  }
+}
+.divide-border-2 {
+  > * {
+   
+    	border-right: $divider-2-border;
+      flex: 1 1 auto;
+      text-align: center;
+      &:last-child {
+      	border-color: transparent;
+      }
+    
+  }
+}
+.hr-divider{
+  @include hr-divider-style;
+}
+.hr-grey-divider{
+  @include hr-divider-grey-style;
+}
+.main-inner-content {min-height: $main-area-height;}
+// Global anchor Link Start
+a {transition: all 0.3s linear}
+// Global anchor Link End
+// Global Container Start
+.container {max-width: $container-max-size !important}
+// Global Container End
+// Global Input & Select Field Start
+.form-control,
+.form-select {
+  box-shadow: $input-box-shadow;
+  &:focus {
+    box-shadow: $input-box-shadow;
+  }
+}
+// Global Input & Select Field End
+// Global Button Css Start
+.btn {
+  box-shadow: $btn-box-shadow;
+  outline: none !important;
+  &:focus {
+    box-shadow: none !important;
+  }
+  &.btn-primary {
+    color: $primary-white;
+    background: $primary-gradient;
+    &:hover {
+      color: $btn-link-hover-color;
+      background: $secondary-gradient;
+    }
+  }
+  &.btn-secondary {
+    color: $primary-white;
+    background: $secondary-gradient;
+    &:hover {
+      color: $btn-link-hover-color;
+      background: $primary-gradient;
+  	}
+  }
+}
+.custom-border{
+  border-right: $custom-border;
+  border-left: $custom-border;
+  @media (max-width:576px) {
+    border: none;
+  }
+}
+.resend-modal {
+  .modal-header {
+    background-color: $medium-grey;
+  }
+  .form-control {
+    color: $text-disabled-color;
+    &::placeholder {
+      color: $text-disabled-color;
+    }font-size: $font-size-base;
+  }
+  .btn {
+    background-image:$white-arrow-icon;
+    background-color: $primary;
+    background-repeat: no-repeat;
+    background-position: $get-btn-background-position;
+    color: $primary-white;
+    &:hover {
+      background-color: $dark;
+    }
+  }
+ 
+}
+.resend-mail-btn{
+  @include global-resend-mail-btn-style;
+}
+// Global Button Css End
+//  Global Scrollbar Css Start
+*::-webkit-scrollbar,
+*::-webkit-scrollbar-thumb {
+  width: $global-scroll-size;
+  height: $global-scroll-size;
+  border-radius: $global-corner-xl;
+  background-clip: padding-box;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: $secondary;
+  &:hover {
+    border-width: $global-corner-base;
+  }
+}
+*::-webkit-scrollbar-track {
+  box-shadow: $webkit-scrollbar-track-box-shadow;
+  border-radius: $global-corner-xl;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1s linear;
+  &:hover {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+//  Global Scrollbar Css End
+// Global Section Start
+section {
+  padding: {
+    top: max($section-padding, $section-padding-vw);
+    bottom: max($section-padding, $section-padding-vw);
+  }
+  @media (max-width:1399px) {
+    padding: {
+      top: min($section-padding, $section-padding-vw);
+      bottom: min($section-padding, $section-padding-vw);
+    }
+  }
+}
+// Global Section End
+.navbar-brand {
+  max-width: min($navbar-brand-logo-mx-width , $navbar-brand-logo-mx-width-vw);
+}
+// Hero Banner Css Start
+.hero-banner-sec {
+	padding: $hero-banner-sec-padding;
+  background: $light-grey;
+  .hero-banner-main {
+    position: relative;
+    .hero-header-main {
+      border-radius: $hero-header-corner;
+      background: $hero-header-bg;
+      max-width: $hero-header-mx-width;
+      width: $hero-header-main-width;
+      padding: $hero-header-pad;
+      position: absolute;
+      top: $top-half;
+      right: $hero-header-main-right-position;
+      transform: translateY(-$top-half);
+    }
+    .list-group {
+      position: absolute;
+      width: $global-full-width;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      list-style: none;
+      padding: $list-group-padding;
+      bottom: $list-group-bottom;
+      li {
+        color: $primary-white;
+        text-shadow: $list-group-item-font-shadow;
+        font-size: $list-group-item-font-size;
+        font-weight: $list-group-item-font-weight;
+        font-style: normal;
+        line-height: normal;
+      }
+      @media (max-width:991px) {
+        bottom: min($list-group-bottom,$list-group-bottom-vw);
+        li {
+          font-size: min($list-group-item-font-size,$list-group-item-font-size-vw);
+        }
+      }
+    }
+	}
+}
+// Hero Banner Css End
+// Feature Section Start
+.feature-sec {
+  background: $light-grey;
+  .feature-card {
+    background: $primary-white;
+    border-radius: $global-corner-base;
+    padding: $feature-card-pad;
+    max-width: $feature-card-mx-width;
+    min-height: $feature-card-mn-height;
+    margin: auto;
+    .feature-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: $feature-card-header-margin;
+      .feature-card-title {
+        text-align: right;
+        font-weight: bold;
+      }
+    }
+    .feature-card-text {
+      text-align: center;
+      font-size: $font-size-lg;
+      font-weight: normal;
+      line-height: normal;
+    }
+    @media (max-width:991px) {
+      padding: min($feature-card-pad,$feature-card-pad-vw);
+      min-height: unset;
+      height: min($feature-card-mn-height,$feature-card-mn-height-vw);
+      .feature-card-header {
+        flex-direction: column;
+        img{
+          width: $feature-card-header-img-vw;
+          height: $feature-card-header-height-img-vw;
+        }
+        .feature-card-title {
+          text-align: center;
+          font-size: min($h4-font-size, $feature-card-title-font-size-vw);
+        }
+      }
+      .feature-card-text {
+        font-size: min($font-size-lg,$feature-card-text-vw);
+      }
+    }
+	}
+}
+// Feature Section End
+// booking form section Start
+.booking-form-sec {
+  .booking-form-main {
+    background-image: $booking-form-banner;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .form-control {
+      @media (max-width:576px) {
+        font-size: min($font-size-base,$form-control-font-size-vw);
+      }
+    }
+    .input-group-text {
+      img {height: $input-icon-height;}
+      @media (max-width:576px) {
+        img {height: calc($input-icon-height - $input-group-text-img-height-mobile);}
+      }
+    } 
+    .btn-primary{
+      @include font-lg;font-weight: 700;}
+    input::-webkit-calendar-picker-indicator {opacity: 0;}
+    input::-moz-calendar-picker-indicator {opacity: 0;}
+  }
+} 
+// booking form section ENd
+// Problem/Solution Css Start
+.pro-sol-sec {
+  .pro-sol-title {
+    position: relative;
+    display: inline-block;
+    margin-bottom: $global-title-margin;
+    &::after {
+      content: '';
+      background: $primary;
+      width: $global-title-line-width;
+      height: $global-title-line-height;
+      position: absolute;
+      bottom: $global-title-line-bottom;
+      left: $global-title-line-left;
+    }
+	}
+}
+// Problem/Solution Css End
+// Work Sections Scss Start
+.work-sec {
+  @extend .pro-sol-sec;
+  background: $work-sec-banner;
+  text-align: center;
+  .work-sec-title {
+    @extend .pro-sol-title;
+    display: inline-block;
+    margin-bottom: $work-title-margin;
+    color: $primary-white;
+  }
+  .work-col-img {
+    max-height: $work-icon-mn-height;
+  }
+}
+// Work Sections Scss End
+// Parking Options Scss Start
+.parking-opt-sec {
+  @extend .work-sec;
+  background: $light-grey;
+  .parking-opt-title {
+    @extend .work-sec-title;
+    color: $primary-black;
+    margin-bottom: $parking-option-title-margin;
+    @media (max-width:576px) {
+    margin-bottom: $parking-option-title-mobile-margin;
+    }
+  }
+  .list-group {
+    min-height: $parking-opt-list-group-mn-height;
+    @media (max-width:576px) {
+      min-height: $parking-opt-list-group-mn-height-mobile;
+    }
+  }
+	.card {
+    max-width: $card-max-width;
+    margin: $card-margin;
+  	.card-title {
+      @extend .work-sec-title;
+      color: $primary-white;
+      @include font-h3;
+      margin-bottom: $card-title-margin;
+    }
+    .card-footer {
+      background: transparent;
+      .card-link {
+        @include font-lg;
+        border-radius: $global-corner-base;
+        background: $primary-white;
+        box-shadow: $card-shadow;
+        color: $dark;
+        font-style: normal;
+        font-weight: bold;
+        line-height: normal;
+        padding: $card-link-pad;
+        display: block;
+        &:hover {
+          background: $primary;
+          color: $primary-white;
+        }
+      }
+    }
+    &.bg-primary {
+    	.card-title {
+        &::after {
+        	background: $primary-white;
+        }
+      }
+      .card-link {
+        &:hover {
+          background: $dark;
+        }
+      }
+    }
+  }
+}
+// Parking Options Scss End
+// Why Parkgaint sec Start
+.why-parkgaint-sec {
+  @extend .work-sec;
+  text-align: start;
+  .why-parkgaint-title {
+    @extend .work-sec-title;
+    font-style: italic;
+    text-align: end;
+  }
+  .mark-point {
+    gap: $right-click-icon-gap;
+    li {
+    	font-size: $h5-font-size;
+      list-style: none;
+      color: white;
+      background-image: $right-click-icon;
+      background-repeat: no-repeat;
+    	background-position: left center;
+      background-size: $right-click-icon-bg-size;
+      padding-left: $right-click-icon-pad;
+    }
+  }
+  @media (max-width:576px) {
+    .why-parkgaint-title{
+      text-align: start;
+    }
+    .mark-point{
+      gap: $right-click-icon-gap-mobile;
+      li{
+        @include font-h5;
+        background-size: calc($right-click-icon-bg-size * $right-click-icon-bg-size-mobile);
+        padding-left: $right-click-icon-pad-mobile;
+      }
+    }
+  }
+}
+// Why Parkgaint sec End
+// FAQ Scss Start
+.faq-sec {
+  @extend .parking-opt-sec;
+  .faq-title {
+    @extend .parking-opt-title;
+  }
+}
+// FAQ Scss End
+// Instant Query Sec Start
+.instant-query-sec {
+  .instant-query-main {
+    background: $primary;
+    padding: $instant-query-pad;
+    border-radius: $global-corner-base;
+  }
+  .instant-query-title {
+    font-size: $instant-query-title-font-size;
+    text-shadow: $instant-query-title-shadow;
+    font-weight: bold;
+    color: $primary-white;
+  }
+  @media (max-width:1299px) {
+    .instant-query-main {
+      padding:$instant-query-main-padding;
+    }
+    .instant-query-title {
+      font-size: min($instant-query-title-font-size,$instant-query-title-font-size-vw);
+    }
+  }
+  @media (max-width:576px) {
+    .instant-query-main {
+      padding:$instant-query-main-padding-mobile;
+    }
+    .instant-query-title {
+      font-size: min($instant-query-title-font-size,$instant-query-title-font-size-vw-mobile);
+    }
+  }
+}
+// Instant Query Sec End
+// meet greet sec Start
+.meet-greet-hero-banner {
+  background: $light-grey;
+	padding-bottom: $meet-greet-hero-banner-btm-padding;
+}
+.meet-greet-card-sec {
+  .card {
+    max-width: $meet-greet-mx-width;
+    .card-body {
+      .card-text {
+        height: $meet-greet-para-height;
+        @media (max-width:699px) {
+          font-size: min($font-size-lg,2.5vw);
+        }
+        @media (max-width:425px) {
+          font-size: min($font-size-lg,4vw);
+        }
+        @media (max-width:360px) {
+          font-size: min($font-size-lg,5vw);
+        }
+      }
+    }
+  }
+}
+// meet greet sec End
+// meet-greet-inner-sec Start
+.meet-greet-inner-sec {
+  background-image: $meetgreet-inner-banner;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  .meet-greet-inner-sec-title {
+    font-size: $instant-query-title-font-size;
+    @media (max-width:991px) {
+      font-size: min( $instant-query-title-font-size,$meet-greet-inner-sec-title-mobile);
+    }
+  }
+}
+.efficiency-banner {background-image: $efficiency-banner;}
+.journey-begin-banner {background-image: $journey-begin-banner;}
+// meet-greet-inner-sec End
+// business-parking-hero-banner Start
+.business-parking-hero-banner{background: $light-grey;}
+// business-parking-hero-banner Start
+// Get-in-touch Section Start 
+.get-in-touch-sec {
+  @extend .why-parkgaint-sec;
+	background-image: $get-in-touch-sec-bg;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	.get-in-touch-sec-title {
+    @extend .why-parkgaint-title;
+    text-align: start;
+    font-style: normal;
+	}
+	.get-in-touch-form {
+		max-width: $get-in-touch-form-mx-width;
+		input,::placeholder{
+			color: $secondary;
+		}
+    .submit-btn {
+      background-image: $grey-arrow-btn-bg;
+      background-repeat: no-repeat;
+      background-position: $get-btn-background-position;
+      background-size: $input-icon-height;
+    }
+    @media (max-width:576px) {
+      .form-control{
+        font-size: min($font-size-base,$form-control-font-size-vw);
+      }
+    }
+  }
+}
+// Get-in-touch Section End
+// Login Page Section Start
+.user-dashboard{
+  .hero-banner{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: $my-account-global-banner;
+    @media (max-width:576px) {
+      box-shadow: $hero-banner-mobile-box-shadow;
+    }
+  }
+}
+.login-section{
+  .form-header{
+    background-color: $light-grey;
+  }
+  .form-control{
+    font-size: $font-size-base;
+    line-height: $font-vw-line-height;
+    color: $grey;
+    background-color: $light-grey;
+    &::placeholder{
+      color: $grey;
+      background-color: $light-grey;
+    }
+  }
+  .btn.btn-primary{
+    background-image: $white-arrow-btn-bg;
+    background-repeat: no-repeat;
+    background-position: $get-btn-background-position;
+    background-size: $input-icon-height;
+    background-color: $primary;  
+    line-height: $font-vw-line-height;
+    &:hover{
+      background-color: $dark;
+    }
+  }
+}
+// Login Page Section End
+// Account Profile Section Start
+.profile-sec{
+  .sidebar-header{
+    background-color: $light-grey;
+  }
+  .sidebar-border{
+    border: $sidebar-border;
+  }
+  .sidebar-nav{
+    .nav-link{
+      &.active{
+        width: $sidebar-navlink-active-width;
+        background-color: $sidebar-navlink-active-bg;
+        color: $primary-white;
+        position: relative;
+        height: $sidebar-navlink-active-height;
+        &::before{
+          content: "";
+          background-image:$my-account-sidebar-nav-link-active-bg;
+          background-repeat: no-repeat;
+          background-position: $sidebar-navlink-active-width;
+          background-size: cover;
+          width: $sidebar-navlink-active-height;
+          height: $sidebar-navlink-active-height;
+          right: $sidebar-navlink-active-before-right;
+          position: absolute;
+          top: $sidebar-navlink-active-before-top;
+        }
+       
+      }
+    }
+  }
+  .sidebar-footer{
+    .btn-primary{
+      background-image:$white-arrow-btn-bg;
+      background-repeat: no-repeat;
+      background-position: $sidebar-footer-btn-position;
+      background-color: $primary;
+    }
+  }
+}
+.profile-info-sec{
+  @extend .pro-sol-sec;
+  .profile-info-title{
+  @extend .pro-sol-title;
+  }
+  .edit-info{
+    font-size: $font-size-sm;
+    background: transparent;
+  }
+  .green-clock-icon{
+    max-width: $green-clock-icon-mx-width;
+  }
+  .back-btn{
+    
+    cursor: pointer;
+  }
+}
+#edit-info{
+  @extend .pro-sol-sec;
+  .edit-info-title{
+    @extend .pro-sol-title;
+  }
+  .text-disabled{
+    color: $text-disabled-color;
+  }
+}
+// Account Profile Section End
+// Checkout Sec Start
+.checkout-sec {
+  .features {
+    .features-list {
+      @media (max-width:576px) {
+        padding-left: $features-list-padding;
+      }
+      li {
+        @include font-h5;
+        list-style: none;
+        background-image: $feature-list-icon;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: $right-click-icon-bg-size;
+        color: $sidebar-navlink-active-bg;
+        @media (max-width:991px) {
+          background-size: contain;
+        }
+        @media (max-width:576px) {
+          background-size: calc($right-click-icon-bg-size * $right-click-icon-bg-size-mobile);
+        }
+      }
+    }
+  }
+  .booking-info-div {
+    .steps-form-header {
+      background-color: $medium-grey;
+      font-size: min($font-size-base,$steps-form-header-font-size-vw);
+      .steps {
+        border: $steps-form-header-step-border;
+        width: min($steps-circle-width,$steps-circle-width-vw);
+        height: min($steps-circle-height,$steps-circle-width-vw);
+        padding-left: $steps-circle-padding-left;
+        padding-right: $steps-circle-padding-right;
+        font-size: min($h4-font-size,$steps-circle-font-size-vw);
+        color: $secondary;
+        &.completed {
+          background-color: $lime-green;
+          color: $primary-white;
+        }
+      }
+    }
+    .info-div {
+      @extend .pro-sol-sec;
+      .info-div-title {
+        @extend .pro-sol-title;
+      }
+      .product-inner-features {
+        li {
+          background-image: $product-inner-features-bg-img;
+          background-repeat: no-repeat;
+          background-position: left center;
+          background-size: $product-inner-features-bg-size $product-inner-features-bg-size;
+          padding-left: $product-inner-features-li-padding;
+          list-style: none;
+        }
+        .walk {
+          background-image: $product-inner-features-bg-walk-img;
+        }
+        .convenience {
+          background-image: $product-inner-features-bg-convenience-img;
+        }
+        .parking {
+          background-image: $product-inner-features-bg-parking-img;
+        }
+        .airport {
+          background-image: $product-inner-features-bg-airport-img;
+        }
+        .charging-point {
+          background-image: $product-inner-features-bg-charging-point-img;
+        }
+      }
+      .form-control {
+        font-size: $font-size-sm;
+        font-style: italic;
+      }
+    }
+  }
+  .booking-summary {
+    font-size: min($font-size-base,$booking-summary-font-size);
+    .booking-summary-header {
+      background-color: $medium-grey;
+    }
+  }
+}
+// Checkout Sec End
+//Contact Us Sec Start
+.contact-us-sec{
+  @extend .work-sec;
+  text-align: left;
+  background: $light-grey;
+  .contact-us-sec-title{
+    @extend .work-sec-title;
+    color: $primary;
+    @media (max-width:576px) {
+      margin-bottom: $global-title-margin;
+    }
+    margin-bottom: unset;
+  }
+  .anchor-list-item{
+    color: $contact-form-text-color;
+  }
+  .contact-form{
+    color: $contact-form-text-color;
+    textarea,input,::placeholder{
+			color: $contact-form-text-color;
+      @include font-lg;
+		}
+    .privacy-policy-text{
+			color: $contact-form-text-color;
+    }
+    .submit-btn
+    {
+      background-color: $contact-form-btn-bg;
+      color: $primary-white;
+      background-image: $white-arrow-icon;
+      background-repeat: no-repeat;
+      background-position: $get-btn-background-position;
+      background-size: $input-icon-height;
+    }
+  }
+}
+.google-map-div {
+  iframe {
+    border-radius: $global-corner-base;
+  }
+}
+//Contact Us Sec End
+.float-whatsapp-icon {
+  position: fixed;
+  top: $top-half;
+  right: $right-small;
+  transition: $floating-btn-transition;
+	border-radius: $whatsapp-btn-radius;
+  animation: $floating-btn-animation;
+  &:hover {
+    transform: $floating-btn-transform;
+  }
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: $floating-btn-box-shadow-one;
+	}
+	80% {
+		box-shadow: $floating-btn-box-shadow-two;
+	}
+}
+// Mobile Navbar SCSS Start 
+@media (max-width:991px) {
+  .mobile-navbar{
+    .offcanvas {
+      background: $primary-white;
+      padding-right: $mobile-menu-padding-x;
+      padding-top: $mobile-menu-padding-y;
+      border-top-left-radius: $offcanvas-border-radius;
+      border-bottom-left-radius: $offcanvas-border-radius;
+      max-width: $mobile-menu-offcanvas-mx-width;
+      li.nav-item a {
+        color: black !important;
+        font-size: $font-size-lg;
+        text-align: right;
+        margin-left: auto;
+      }
+      form {
+        justify-content: end;
+        a{color: black;}
+      }
+    }
+    .close-menu-btn{
+      position: absolute;
+      top: $close-navbar-top;
+      right: $close-navbar-right;
+    }
+  }
+}
+// Mobile Navbar SCSS End 
